@@ -17,19 +17,19 @@ let ApiRickAndMorty = fetch("https://rickandmortyapi.com/api/character", {
                 <div class="containerStatus">
                     <p class="characterStatus">${character.status}</p>
                 </div>
+                <p class="cardDescription">Species: ${character.species}</p>
+                <p class="cardDescription">Gender: ${character.gender}</p>
+                <p class="cardDescription">Origin: ${character.origin.name}</p>
             </div>
-            <div class="secondSectionCard">
-                <p>Species: ${character.species}</p>
-                <p>Gender: ${character.gender}</p>
-                <p>Origin: ${character.origin.name}</p>
-                <h3>Capitulos:</h3>
+<!--    
+            <h3>Capitulos:</h3>
                 <ul>
                     <li>${character.episode[0]}</li>
                     <li>${character.episode[1]}</li>
                     <li>${character.episode[2]}</li>
                     <li>${character.episode[3]}</li>
-                </ul>
-            </div>
+                    </ul>
+-->        
         </section>`;
     characterAPI.innerHTML += card;
     });

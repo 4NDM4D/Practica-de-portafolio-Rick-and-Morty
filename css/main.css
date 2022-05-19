@@ -1,3 +1,7 @@
+@font-face {
+    src: url("../font/shlop\ rg.ttf") format("truetype");
+    font-family: "Shlop";
+}
 * {
     margin: 0;
     padding: 0;
@@ -11,9 +15,9 @@
     background-size: cover;
 }
 section {
-    border:.5em solid #475;
+    border:.5em solid #00040D;
     max-width: 345px;
-    background-color: lightgreen;
+    background-color: #FAFD7CFF;
     margin: 1em;
     border-radius: 1em;
 }
@@ -24,72 +28,98 @@ article {
     max-width: 1920px;
     justify-content: center;
 }
+h1, h2, h3{
+    font-family: "Shlop";
+    letter-spacing: .1em;
+}
+h1, h2, h3, p {
+    color: #00040D;
+}
 h1 {
+    border:.3em #00040D solid;
+    border-radius: 1em;
     text-align: center;
     margin: auto;
     width: 18em;
     padding: 0.5em 0;
-    background-color: #375;
+    background-color: #FAFD7CFF;
+}
+h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin:.5em 0;
+    font-weight: bold;
+    letter-spacing: .3em;
+    text-align: center;
 }
 h2, picture {
     display:flex;
     justify-content: center;
-    font-size: 22px;
+
 }
 .containerStatus {
     height: 0;
 }
-.characterStatus{
+.characterStatus {
+    border: .2em solid#FAFD7CFF;
     width:5em;
     text-align: center;
     z-index: 2;
     position: relative;
-    left: 14.4em;
-    bottom:2.3em;
+    left: 15em;
+    bottom:2em;
     font-weight: 800; 
     margin:0;
     padding:0;
-    background-color: #699;
+    background-color: #B7E4F9FF;   
 }
-.firstSectionCard{
+.firstSectionCard {
     border-top-left-radius: .5em;
     border-top-right-radius: .5em;
 }
-.secondSectionCard{
-    padding: .3em .2em;
-    background-color: #375;
+.containerDescription {
+    background-color: #526E2DFF;
     border-bottom-left-radius: .5em;
     border-bottom-right-radius: .5em;
+    display: flex;
+    flex-direction: column;
+    /*have the 100% heith*/
 }
+/*
+
 h3 {
     font-size: 18px;
     margin: .5em;
+}*/
+.cardDescription {
+    letter-spacing: .1em;
+    font-family: sans-serif;
+    font-weight: 600;
 }
-p, li {
+p/*, li*/ {
     font-size: 16px;
-    background: rgb(169, 240, 148);
-    border-radius: 1em;
-    padding: 0 .5em 0 .5em;
+    background: #B7E4F9FF;
+    border-radius: .3em;
+    padding: 0 .3em 0.3em;
+    color:#00040D;
+    margin: .3em 0;
 }   
 img {
     z-index: 1;
-    border: .65em solid #616;
+    border: .65em solid #00040D;
     border-top-left-radius: .5em;
     border-top-right-radius: .5em;
 }
-ul {
+/*ul {
     list-style-type: disclosure-closed;
-    padding: 0 .5em .5em 2em;
+    padding: 0 .5em .5em 1em;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     font-size: 18px;
 }
 li {
-    flex-direction: column;
-    min-width: 50%;
-    margin-bottom: .5em;
-}
-section div p {
-    margin: .3em 0;
-}
+    margin-bottom: .1em;
+    overflow: hidden;
+}*/
+
+
