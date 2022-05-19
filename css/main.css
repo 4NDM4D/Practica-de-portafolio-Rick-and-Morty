@@ -132,6 +132,7 @@ p/*, li*/ {
     border: .2em solid #00040D;
 }   
 img {
+    width: 100%;
     z-index: 1;
     border: .65em solid #00040D;
     border-top-left-radius: .5em;
