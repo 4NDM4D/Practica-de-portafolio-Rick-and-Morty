@@ -28,7 +28,7 @@ let ApiRickAndMorty = fetch("https://rickandmortyapi.com/api/character", {
                     <li>${character.episode[1]}</li>
                     <li>${character.episode[2]}</li>
                     <li>${character.episode[3]}</li>
-                    </ul>
+                </ul>
 -->        
         </section>`;
     characterAPI.innerHTML += card;

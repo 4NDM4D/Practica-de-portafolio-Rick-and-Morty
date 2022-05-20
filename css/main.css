@@ -7,6 +7,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.searchContainer{
+    padding: .5em;
+    border-radius: 1em;
+    border: .3em solid #00040D;
+}
 .containerPrincipal{
     display: flex;
     align-items: center;
@@ -32,7 +42,7 @@ h1, h2, h3{
     font-family: "Shlop";
     letter-spacing: .1em;
 }
-h1, h2, h3, p {
+h1, h2, h3, p/*, li*/ {
     color: #00040D;
 }
 h1 {
