@@ -7,7 +7,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    width: 100%;
+}
 header{
+    margin:3%;
     width: 100%;
     max-width: 1000px;
 }
@@ -20,6 +24,8 @@ form{
     padding: .5em;
     border-radius: 1em;
     border: .3em solid #00040D;
+    align-self: center;
+    width: 60%;
 }
 .containerPrincipal{
     display: flex;
@@ -36,7 +42,6 @@ section {
     border-radius: 1em;
 }
 article {
-    padding: 1em;
     display: flex;
     flex-wrap: wrap;
     max-width: 1920px;
@@ -54,10 +59,9 @@ h1 {
     border-radius: 1em;
     text-align: center;
     margin: auto;
-    width: 18em;
     padding: 0.5em 0;
     background-color: #FAFD7CFF;
-    width: 100%;
+    width: 90%;
 }
 h2{
     font-size: 22px;
@@ -122,9 +126,10 @@ h3 {
 p/*, li*/ {
     font-size: 16px;
     background: #B7E4F9FF;
-    border-radius: .3em;
+    border-radius: .5em;
     color:#00040D;
-    margin: .3em 0;
+    margin: .3em;
+    border: .2em solid #00040D;
 }   
 img {
     z-index: 1;
