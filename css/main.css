@@ -7,6 +7,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    width: 100%;
+    max-width: 1000px;
+}
 form{
     display: flex;
     flex-direction: column;
@@ -53,6 +57,7 @@ h1 {
     width: 18em;
     padding: 0.5em 0;
     background-color: #FAFD7CFF;
+    width: 100%;
 }
 h2{
     font-size: 22px;
@@ -61,6 +66,7 @@ h2{
     font-weight: bold;
     letter-spacing: .3em;
     text-align: center;
+    padding: 0 .1em;
 }
 h2, picture {
     display:flex;
@@ -86,6 +92,8 @@ h2, picture {
 .firstSectionCard {
     border-top-left-radius: .5em;
     border-top-right-radius: .5em;
+    display: flex;
+    flex-direction: column;
 }
 .containerDescription {
     background-color: #526E2DFF;
@@ -105,12 +113,16 @@ h3 {
     letter-spacing: .1em;
     font-family: sans-serif;
     font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+    min-height: 1.5em;
 }
 p/*, li*/ {
     font-size: 16px;
     background: #B7E4F9FF;
     border-radius: .3em;
-    padding: 0 .3em 0.3em;
     color:#00040D;
     margin: .3em 0;
 }   
