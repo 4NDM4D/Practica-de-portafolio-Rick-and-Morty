@@ -75,7 +75,6 @@ h2{
 h2, picture {
     display:flex;
     justify-content: center;
-
 }
 .containerStatus {
     height: 0;
