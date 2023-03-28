@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta author="Andres Madrigal" content="Request de la API de: Rick and Morty">
-        <title>Characters of Rick and Morty</title>
-        <link href="css/main.css" rel="stylesheet">
-    </head>
-    <body>
-        <div class="containerPrincipal">
-            <header>
-                <h1>Characters of Rick and Morty</h1>
-                <form>
-                    <input class="searchContainer" type="text" name="searchCharacter" placeholder="Search the character:">
-                </form>
-            </header>
-            <article id="cardList">
-            </article>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta author="Andres Madrigal" content="Request de la API de: Rick and Morty">
+    <title>Characters of Rick and Morty</title>
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="containerPrincipal">
+      <header>
+        <h1>Characters of Rick and Morty</h1>
+        <div class="formContainer">
+            <input class="searchContainer" type="text" name="searchCharacter" placeholder="Search the character:" onload="searchCharacter()">
         </div>
-    </body>
-    <script type="module" src="js/main.js"></script> 
+      </header>
+      <article id="cardList">
+      </article>
+    </div>
+</body>
+<script type="module" src="js/searchCharacter.js"></script>
+<script type="module" src="js/main.js"></script>
 </html>

@@ -15,7 +15,7 @@ header{
     width: 100%;
     max-width: 1000px;
 }
-form{
+.formContainer{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,6 +40,7 @@ section {
     background-color: #FAFD7CFF;
     margin: 1em;
     border-radius: 1em;
+    display: block;
 }
 article {
     display: flex;
@@ -128,5 +129,3 @@ img {
     border-top-left-radius: .5em;
     border-top-right-radius: .5em;
 }
-
-
