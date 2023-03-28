@@ -11,10 +11,7 @@ function searchCharacter() {
     const species = section.getAttribute("data-species").toLowerCase();
     const gender = section.getAttribute("data-gender").toLowerCase();
     const origin = section.getAttribute("data-origin").toLowerCase();
-    if (name.includes(searchValue) || 
-        species.includes(searchValue) || 
-        gender.includes(searchValue) || 
-        origin.includes(searchValue)) {
+    if (name.includes(searchValue) || species.includes(searchValue) || gender.includes(searchValue) || origin.includes(searchValue)) {
       section.style.display = "block";
     } else {
       section.style.display = "none";
