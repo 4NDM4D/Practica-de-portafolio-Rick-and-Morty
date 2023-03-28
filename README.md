@@ -17,7 +17,6 @@
   <ul>
     <li>Implement pagination for larger lists of characters.</li>
     <li>Add sorting options for character cards.</li>
-    <li>Improve the webpage's mobile responsiveness.</li>
   </ul>
   <h2>Acknowledgements</h2>
   <ul>
