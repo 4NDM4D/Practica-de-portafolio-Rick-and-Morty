@@ -35,4 +35,4 @@ let ApiRickAndMorty = fetch("https://rickandmortyapi.com/api/character", {
 import { searchCharacter } from "./searchCharacter.js";
 // Asignar el evento de carga "load" al elemento de entrada con clase "searchContainer"
 const searchInput = document.querySelector(".searchContainer");
-searchInput.addEventListener("load", searchCharacter);
+searchInput.addEventListener("input", searchCharacter);
